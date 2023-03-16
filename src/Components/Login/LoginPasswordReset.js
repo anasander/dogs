@@ -37,7 +37,7 @@ const LoginPasswordReset = () => {
   }
 
   return (
-    <div>
+    <section className="animateLeft">
       <Head title="Redefinição de Senha" />
       <h1 className="title">Redefina sua Senha</h1>
       <form onSubmit={handleSubmit}>
@@ -48,13 +48,13 @@ const LoginPasswordReset = () => {
           {...password}
         />
         {loading ? (
-          <Button disabled>Resetando...</Button>
+          <Button disabled>Redefinindo...</Button>
         ) : (
-          <Button>Resetar Senha</Button>
+          <Button>Redefinir Senha</Button>
         )}
       </form>
       <Error error={error} />
-    </div>
+    </section>
   );
 };
 
