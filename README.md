@@ -7,6 +7,8 @@
 
 <h2>Project Description</h2>
 <p>A social network site for Dogs. Made as the final project of my React professional course on <a href='https://www.origamid.com/'>Origamid</a>.</p>
+<p>You can see the repository in action at: <a href='https://dogs-pink.vercel.app/'>Dogs</a>.</p>
+</br>
 
 ![dogs](https://user-images.githubusercontent.com/108422924/231221862-c1fe5f2f-d2ca-43e2-9e65-185a11c1168e.png)
 
